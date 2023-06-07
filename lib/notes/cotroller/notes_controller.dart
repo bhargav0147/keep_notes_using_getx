@@ -1,4 +1,6 @@
+import 'package:flutter/material.dart';
 import 'package:get/get.dart';
+import 'package:intl/intl.dart';
 import 'package:keep_notes_using_getx/notes/modal/notes_modal.dart';
 
 class NotesController extends GetxController {
@@ -24,4 +26,28 @@ class NotesController extends GetxController {
         priority: "Urgent",
         time: "18:00")
   ].obs;
+
+  RxList dropdownList= [
+    'Low',
+    'Medium',
+    'Urgent',
+  ].obs;
+
+  RxString selectDrop = "Low".obs;
+
+  RxString selectdate="".obs;
+  RxString selectTime="".obs;
+
+  String chnageDate(DateTime dt)
+  {
+    var format=DateFormat('dd-MM-yyyy');
+    return format.format(dt) as String;
+  }
+
+  String chnagetime(TimeOfDay tt)
+  {
+    var format=DateFormat('HH:mm');
+
+   return format.format(tt as DateTime) as String;
+  }
 }
