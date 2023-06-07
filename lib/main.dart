@@ -1,7 +1,9 @@
 import 'package:device_preview/device_preview.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
+import 'package:keep_notes_using_getx/notes/view/add_screen.dart';
 import 'package:keep_notes_using_getx/notes/view/dash_screen.dart';
+import 'package:keep_notes_using_getx/notes/view/location_screen.dart';
 import 'package:sizer/sizer.dart';
 
 void main() {
@@ -14,6 +16,8 @@ void main() {
                 debugShowCheckedModeBanner: false,
                 routes: {
                   '/':(p0) => DashScreen(),
+                  'add':(p0) => AddScreen(),
+                  'location':(p0) => LocationScreen(),
                 },
               ),
         ),
