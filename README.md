@@ -20,3 +20,18 @@ A new Flutter project.
 <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
 <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
 ```
+
+```xml
+## Get Lat Log 
+
+permission = await Geolocator.checkPermission();
+if (permission == LocationPermission.denied) {
+await Geolocator.requestPermission();
+} else {
+Position position = await Geolocator.getCurrentPosition(
+desiredAccuracy: LocationAccuracy.high);
+print(controller.lat.value = position.latitude);
+controller.lat.value = position.latitude;
+controller.log.value = position.longitude;
+}
+```
