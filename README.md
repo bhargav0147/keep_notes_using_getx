@@ -35,3 +35,11 @@ controller.lat.value = position.latitude;
 controller.log.value = position.longitude;
 }
 ```
+
+```xml
+## Get Address 
+
+List<Placemark> placeList = await placemarkFromCoordinates(
+controller.lat.value, controller.log.value);
+controller.currentLoc.value = placeList[1];
+```
