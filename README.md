@@ -4,13 +4,16 @@ A new Flutter project.
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+<p>
+<img src="https://github.com/bhargav0147/keep_notes_using_getx/assets/119872080/4bc2a554-5ce1-43c7-ab76-67e127c9806e" height="20%" width="30%" >
+<img src="https://github.com/bhargav0147/keep_notes_using_getx/assets/119872080/af533040-bad7-461a-8eb5-127a677756c8" height="20%" width="30%" >
+<img src="https://github.com/bhargav0147/keep_notes_using_getx/assets/119872080/4c79d31a-e420-4cbc-8897-95ea76ead98e" height="20%" width="30%" >
+<img src="https://github.com/bhargav0147/keep_notes_using_getx/assets/119872080/50748b40-546c-45e5-8528-b2f29b9bb0e6" height="20%" width="30%" >
+</p>
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## AndroidMainfest 
+<uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+<uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+<uses-permission android:name="android.permission.CAMERA" />
+<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+<uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
