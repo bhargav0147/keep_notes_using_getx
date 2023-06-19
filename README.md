@@ -43,3 +43,16 @@ List<Placemark> placeList = await placemarkFromCoordinates(
 controller.lat.value, controller.log.value);
 controller.currentLoc.value = placeList[1];
 ```
+
+```xml
+## Get Live Map 
+
+<uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+<uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
+<meta-data android:name="com.google.android.geo.API_KEY"
+           android:value="AIzaSyDrfoqcjcJD9NzL2t6Y4O3nH4hLFzC5pRQ"/>
+
+GoogleMap(initialCameraPosition: CameraPosition(target: LatLng(
+controller.lat.value, controller.log.value),zoom: 11));
+```
