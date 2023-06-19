@@ -3,20 +3,6 @@
 A new Flutter project.
 
 
-# Project Title
-
-A brief description of what this project does and who it's for
-
-
-## AndroidMainfest 
-
-<uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
-<uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
-<uses-permission android:name="android.permission.CAMERA" />
-<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
-<uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
-
-
 ## Getting Started
 
 <p>
@@ -25,4 +11,12 @@ A brief description of what this project does and who it's for
 <img src="https://github.com/bhargav0147/keep_notes_using_getx/assets/119872080/50748b40-546c-45e5-8528-b2f29b9bb0e6" height="20%" width="30%" >
 </p>
 
+```xml
+## AndroidMainfest 
 
+<uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+<uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+<uses-permission android:name="android.permission.CAMERA" />
+<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+<uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+```
